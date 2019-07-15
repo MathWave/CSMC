@@ -1,0 +1,50 @@
+﻿<Properties StartupConfiguration="{AB6F9867-F034-4FCC-959C-5B7D0F501914}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CSMC/Models/Info.cs">
+    <Files>
+      <File FileName="CSMC/News.cs" Line="9" Column="31" />
+      <File FileName="CSMC.Android/Resources/Resource.designer.cs" Line="12362" Column="1" />
+      <File FileName="CSMC.Android/Resources/values/colors.xml" Line="3" Column="46" />
+      <File FileName="CSMC.Android/Resources/values/styles.xml" Line="23" Column="59" />
+      <File FileName="CSMC/MainPage.cs" Line="19" Column="1" />
+      <File FileName="CSMC/Vacancies.cs" Line="24" Column="36" />
+      <File FileName="CSMC/Models/Title.cs" Line="14" Column="25" />
+      <File FileName="CSMC/Models/MyPage.cs" Line="9" Column="26" />
+      <File FileName="CSMC/About.cs" Line="20" Column="2" />
+      <File FileName="CSMC/Projects.cs" Line="9" Column="35" />
+      <File FileName="CSMC/Publications.cs" Line="9" Column="39" />
+      <File FileName="CSMC/Seminars.cs" Line="9" Column="35" />
+      <File FileName="CSMC/Workers.cs" Line="9" Column="34" />
+      <File FileName="CSMC/Models/MyButton.cs" Line="13" Column="25" />
+      <File FileName="CSMC/Models/Info.cs" Line="5" Column="24" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CSMC" expanded="True">
+            <Node name="CSMC" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+              <Node name="Models" expanded="True">
+                <Node name="Info.cs" selected="True" />
+              </Node>
+              <Node name="App.xaml" expanded="True" />
+            </Node>
+            <Node name="CSMC.Android" expanded="True">
+              <Node name="Resources" expanded="True">
+                <Node name="values" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.CSMC.Android PreferredExecutionTarget="Android.CB512BF3UX" />
+</Properties>

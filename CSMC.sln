@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSMC.Android", "CSMC.Android\CSMC.Android.csproj", "{AB6F9867-F034-4FCC-959C-5B7D0F501914}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSMC", "CSMC\CSMC.csproj", "{DC7249F4-3CF8-47AB-B93A-026C70222262}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB6F9867-F034-4FCC-959C-5B7D0F501914}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB6F9867-F034-4FCC-959C-5B7D0F501914}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB6F9867-F034-4FCC-959C-5B7D0F501914}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB6F9867-F034-4FCC-959C-5B7D0F501914}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC7249F4-3CF8-47AB-B93A-026C70222262}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC7249F4-3CF8-47AB-B93A-026C70222262}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC7249F4-3CF8-47AB-B93A-026C70222262}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC7249F4-3CF8-47AB-B93A-026C70222262}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

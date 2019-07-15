@@ -1,0 +1,12 @@
+/Users/egormatveev/Projects/CSMC/CSMC/bin/Debug/netstandard2.0/CSMC.deps.json
+/Users/egormatveev/Projects/CSMC/CSMC/bin/Debug/netstandard2.0/CSMC.dll
+/Users/egormatveev/Projects/CSMC/CSMC/bin/Debug/netstandard2.0/ref/CSMC.dll
+/Users/egormatveev/Projects/CSMC/CSMC/bin/Debug/netstandard2.0/CSMC.pdb
+/Users/egormatveev/Projects/CSMC/CSMC/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/egormatveev/Projects/CSMC/CSMC/obj/Debug/netstandard2.0/CSMC.csproj.CoreCompileInputs.cache
+/Users/egormatveev/Projects/CSMC/CSMC/obj/Debug/netstandard2.0/CSMC.AssemblyInfoInputs.cache
+/Users/egormatveev/Projects/CSMC/CSMC/obj/Debug/netstandard2.0/CSMC.AssemblyInfo.cs
+/Users/egormatveev/Projects/CSMC/CSMC/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/egormatveev/Projects/CSMC/CSMC/obj/Debug/netstandard2.0/CSMC.dll
+/Users/egormatveev/Projects/CSMC/CSMC/obj/Debug/netstandard2.0/ref/CSMC.dll
+/Users/egormatveev/Projects/CSMC/CSMC/obj/Debug/netstandard2.0/CSMC.pdb
