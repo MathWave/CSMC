@@ -7,7 +7,7 @@ namespace CSMC.Models
         public MyButton(string line)
         {
             Text = line;
-            BackgroundColor = Color.Blue;
+            BackgroundColor = Color.Black;
             TextColor = Color.White;
             FontSize = 15;
             Margin = 20;

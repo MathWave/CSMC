@@ -9,6 +9,10 @@ namespace CSMC
         public Vacancies() : base()
         {
             Title = "Вакансии";
+            MyButton b = new MyButton("Отправить резюме")
+            {
+                VerticalOptions = LayoutOptions.End
+            };
             Content = new StackLayout
             {
                 Children =
@@ -18,13 +22,12 @@ namespace CSMC
                     {
                         VerticalOptions = LayoutOptions.CenterAndExpand
                     },
-                    new MyButton("Отправить резюме")
-                    {
-                        VerticalOptions = LayoutOptions.End
-                    }
+                    b
                 }
             };
+            b.Clicked += (object s, EventArgs e) => { Device.OpenUri(new Uri("mailto:ryavorsky@hse.ru?subject=Стажировка%20в%20НУЛ%20МУСС")); };
         }
+
     }
 }
 
