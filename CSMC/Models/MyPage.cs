@@ -6,7 +6,7 @@ namespace CSMC.Models
     {
         public MyPage()
         {
-            Padding = 20;
+            Padding = 10;
         }
     }
 }

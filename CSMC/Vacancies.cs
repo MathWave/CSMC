@@ -18,7 +18,7 @@ namespace CSMC
                 Children =
                 {
                     new Title("Приглашаем на стажировку"),
-                    new Info("Приложите пожалуйста к письму CV, образец написанного текста и / или программного кода.")
+                    new Info("Приложите, пожалуйста, к письму CV, образец написанного текста и / или программного кода.")
                     {
                         VerticalOptions = LayoutOptions.CenterAndExpand
                     },
