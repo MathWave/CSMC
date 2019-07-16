@@ -27,5 +27,6 @@ namespace CSMC
         {
             // Handle when your app resumes
         }
+
     }
 }

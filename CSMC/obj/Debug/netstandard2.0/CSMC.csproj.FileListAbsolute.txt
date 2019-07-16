@@ -10,3 +10,4 @@
 /Users/egormatveev/Projects/CSMC/CSMC/obj/Debug/netstandard2.0/CSMC.dll
 /Users/egormatveev/Projects/CSMC/CSMC/obj/Debug/netstandard2.0/ref/CSMC.dll
 /Users/egormatveev/Projects/CSMC/CSMC/obj/Debug/netstandard2.0/CSMC.pdb
+/Users/egormatveev/Projects/CSMC/CSMC/obj/Debug/netstandard2.0/CSMC.csprojAssemblyReference.cache
