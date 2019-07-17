@@ -35,13 +35,12 @@ namespace CSMC
                     };
                     work.Add(p);
                 }
-
             }
             catch { success = false; }
             if (success)
             {
                 SerializationInfo.SerializeWorkers(work);
-                App.PersonDB = SerializationInfo.DeseializeWorkers();
+                App.PersonDB = work;
             }
             Content = new PersonListView(App.PersonDB);
         }

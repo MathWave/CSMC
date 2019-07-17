@@ -2,10 +2,11 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="CSMC/App.xaml.cs">
     <Files>
       <File FileName="CSMC/Models/Person.cs" Line="1" Column="1" />
-      <File FileName="CSMC/Workers.cs" Line="9" Column="34" />
+      <File FileName="CSMC/Workers.cs" Line="45" Column="56" />
       <File FileName="CSMC/Models/MyListView.cs" Line="16" Column="38" />
-      <File FileName="CSMC/SerializationInfo.cs" Line="19" Column="44" />
-      <File FileName="CSMC/App.xaml.cs" Line="1" Column="1" />
+      <File FileName="CSMC/SerializationInfo.cs" Line="21" Column="10" />
+      <File FileName="CSMC/App.xaml.cs" Line="21" Column="40" />
+      <File FileName="CSMC/Models/MyPage.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -35,10 +36,8 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/egormatveev/Projects/CSMC/CSMC/Workers.cs" relfile="CSMC/Workers.cs" line="29" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.CSMC.Android PreferredExecutionTarget="Android.CB512BF3UX" />
+  <MonoDevelop.Ide.ItemProperties.CSMC.Android PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
 </Properties>
