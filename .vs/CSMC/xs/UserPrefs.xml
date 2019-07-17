@@ -1,22 +1,11 @@
 ﻿<Properties StartupConfiguration="{AB6F9867-F034-4FCC-959C-5B7D0F501914}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="CSMC/Workers.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CSMC/App.xaml.cs">
     <Files>
-      <File FileName="CSMC/News.cs" Line="9" Column="31" />
-      <File FileName="CSMC.Android/Resources/Resource.designer.cs" />
-      <File FileName="CSMC.Android/Resources/values/colors.xml" />
-      <File FileName="CSMC.Android/Resources/values/styles.xml" />
-      <File FileName="CSMC/MainPage.cs" Line="19" Column="1" />
-      <File FileName="CSMC/Vacancies.cs" />
-      <File FileName="CSMC/Models/Title.cs" />
-      <File FileName="CSMC/Models/MyPage.cs" />
-      <File FileName="CSMC/About.cs" />
-      <File FileName="CSMC/Projects.cs" />
-      <File FileName="CSMC/Publications.cs" />
-      <File FileName="CSMC/Seminars.cs" />
-      <File FileName="CSMC/Workers.cs" Line="19" Column="23" />
-      <File FileName="CSMC/Models/MyButton.cs" />
-      <File FileName="CSMC/Models/Info.cs" />
-      <File FileName="CSMC/App.xaml.cs" />
+      <File FileName="CSMC/Models/Person.cs" Line="1" Column="1" />
+      <File FileName="CSMC/Workers.cs" Line="9" Column="34" />
+      <File FileName="CSMC/Models/MyListView.cs" Line="16" Column="38" />
+      <File FileName="CSMC/SerializationInfo.cs" Line="19" Column="44" />
+      <File FileName="CSMC/App.xaml.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -27,12 +16,14 @@
                 <Node name="PackageDependencies" expanded="True" />
               </Node>
               <Node name="Models" expanded="True" />
-              <Node name="App.xaml" expanded="True" />
-              <Node name="Workers.cs" selected="True" />
+              <Node name="App.xaml" expanded="True">
+                <Node name="App.xaml.cs" selected="True" />
+              </Node>
             </Node>
             <Node name="CSMC.Android" expanded="True">
               <Node name="References" expanded="True" />
               <Node name="Resources" expanded="True">
+                <Node name="drawable" expanded="True" />
                 <Node name="values" expanded="True" />
               </Node>
             </Node>
@@ -44,7 +35,9 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/egormatveev/Projects/CSMC/CSMC/Workers.cs" relfile="CSMC/Workers.cs" line="29" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.CSMC.Android PreferredExecutionTarget="Android.CB512BF3UX" />

@@ -466,3 +466,6 @@
 /Users/egormatveev/Projects/CSMC/CSMC.Android/obj/Debug/stamp/_GenerateJavaStubs.stamp
 /Users/egormatveev/Projects/CSMC/CSMC.Android/obj/Debug/stamp/_GeneratePackageManagerJava.stamp
 /Users/egormatveev/Projects/CSMC/CSMC.Android/obj/Debug/stamp/_ResolveLibraryProjectImports.stamp
+/Users/egormatveev/Projects/CSMC/CSMC.Android/obj/Debug/res/drawable/logo.gif
+/Users/egormatveev/Projects/CSMC/CSMC.Android/obj/Debug/res/drawable/black.png
+/Users/egormatveev/Projects/CSMC/CSMC.Android/obj/Debug/res/drawable/white.jpg

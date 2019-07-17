@@ -7,6 +7,7 @@ namespace CSMC.Models
         public MyPage()
         {
             Padding = 10;
+            BackgroundColor = Color.White;
         }
     }
 }

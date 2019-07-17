@@ -6,6 +6,7 @@ using Xamarin.Forms;
 using System.Net.NetworkInformation;
 using System.Threading;
 using System.Threading.Tasks;
+using System.Collections.Generic;
 
 namespace CSMC
 {
@@ -15,74 +16,35 @@ namespace CSMC
         public Workers() : base()
         {
             Title = "Сотрудники";
-            Content = new Title("Идет загрузка данных...");
-            var t = Task.Run(()=>
-            {
-                try
-                {
-                    string url = "https://cs.hse.ru/big-data/csmc/people";
-                    using (WebClient client = new WebClient())
-                    {
-                        html = client.DownloadString(url);
-                    }
-                    if (string.IsNullOrEmpty(html))
-                        html = null;
-                }
-                catch
-                {
-                    html = null;
-                    int a = 5;
-                    a++;
-                }
-            });
-            bool IsCompleted = t.Wait(TimeSpan.FromMilliseconds(10000));
-            if (IsCompleted)
-            {
-                Content = new Title("Удачно");
-            }
-            else
-            {
-                Content = new Title("Отсутствует подключение к интернету");
-            }
-        }
-
-        void GetInfo()
-        {
+            List<Person> work = new List<Person>();
+            bool success = true;
             try
             {
-                string url = "https://cs.hse.ru/big-data/csmc/people";
-                using (WebClient client = new WebClient())
+                using (WebClient wc = new WebClient())
                 {
-                    html = client.DownloadString(url);
+                    html = wc.DownloadString("https://cs.hse.ru/big-data/csmc/people");
                 }
-                if (string.IsNullOrEmpty(html))
-                    html = null;
+                string need = html.Split('\n')[73].Split(new string[] { "<section>", "</section>" }, StringSplitOptions.RemoveEmptyEntries)[0];
+                string[] spl = need.Split(new char[] { '>', '<' }, StringSplitOptions.RemoveEmptyEntries);
+                for (int i = 22; i < spl.Length; i += 15)
+                {
+                    Person p = new Person
+                    {
+                        Name = spl[i],
+                        Link = spl[i - 1].Split('\"')[3].Substring(2)
+                    };
+                    work.Add(p);
+                }
+
             }
-            catch
+            catch { success = false; }
+            if (success)
             {
-                html = null;
-                int a = 5;
-                a++;
+                SerializationInfo.SerializeWorkers(work);
+                App.PersonDB = SerializationInfo.DeseializeWorkers();
             }
-
+            Content = new PersonListView(App.PersonDB);
         }
-
-        async void Change()
-        {
-            while (true)
-            {
-                Content = new Title("Идет загрузка данных");
-                await Task.Delay(TimeSpan.FromMilliseconds(1000));
-                Content = new Title("Идет загрузка данных.");
-                await Task.Delay(TimeSpan.FromMilliseconds(1000));
-                Content = new Title("Идет загрузка данных..");
-                await Task.Delay(TimeSpan.FromMilliseconds(1000));
-                Content = new Title("Идет загрузка данных...");
-                await Task.Delay(TimeSpan.FromMilliseconds(1000));
-
-            }
-        }
-
 
     }
 }
