@@ -16,6 +16,7 @@ namespace CSMC
             Children.Add(new Publications());
             Children.Add(new Vacancies());
             Children.Add(new Projects());
+            ToolbarItems.Add(new ToolbarItem("settings", "", () => Navigation.PushAsync(new Settings())) { IconImageSource = "settings.png" });
         }
     }
 }

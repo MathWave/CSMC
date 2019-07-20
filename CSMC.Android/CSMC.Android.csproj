@@ -91,6 +91,7 @@
     <AndroidResource Include="Resources\drawable\logo.gif" />
     <AndroidResource Include="Resources\drawable\black.png" />
     <AndroidResource Include="Resources\drawable\white.jpg" />
+    <AndroidResource Include="Resources\drawable\settings.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />
