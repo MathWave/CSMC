@@ -65,6 +65,24 @@ namespace CSMC
             }
         }
 
+        public static void SerializePublications(List<New> list)
+        {
+            var form = new DataContractJsonSerializer(typeof(List<New>));
+            using (FileStream fs = new FileStream(Path("publications"), FileMode.Create))
+            {
+                form.WriteObject(fs, list);
+            }
+        }
+
+        public static List<New> DeserializePublications()
+        {
+            var form = new DataContractJsonSerializer(typeof(List<New>));
+            using (FileStream fs = new FileStream(Path("publications"), FileMode.Open))
+            {
+                return (List<New>)form.ReadObject(fs);
+            }
+        }
+
     }
 
 }
