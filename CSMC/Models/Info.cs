@@ -10,7 +10,7 @@ namespace CSMC.Models
             FontSize = 15;
             HorizontalOptions = LayoutOptions.Start;
             TextColor = Color.Black;
-            HorizontalTextAlignment = TextAlignment.Center;
+            HorizontalTextAlignment = TextAlignment.Start;
             Margin = 20;
         }
     }
