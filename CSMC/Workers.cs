@@ -39,7 +39,7 @@ namespace CSMC
             catch { success = false; }
             if (success)
             {
-                SerializationInfo.SerializeWorkers(work);
+                SerializationInfo.SerializePersonList(work);
                 App.PersonDB = work;
             }
             Content = new PersonListView(App.PersonDB);

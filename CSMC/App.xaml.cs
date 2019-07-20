@@ -15,8 +15,8 @@ namespace CSMC
         public App()
         {
             if (!File.Exists(SerializationInfo.Path("workers")))
-                SerializationInfo.SerializeWorkers(new List<Person>());
-            PersonDB = SerializationInfo.DeseializeWorkers();
+                SerializationInfo.SerializePersonList(new List<Person>());
+            PersonDB = SerializationInfo.DeserializePersonList();
             InitializeComponent();
             MainPage = new NavigationPage(new MainPage());
             MainPage.SetValue(NavigationPage.BarBackgroundColorProperty, Color.Black);

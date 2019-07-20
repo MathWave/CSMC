@@ -11,7 +11,7 @@ namespace CSMC
 
         public static string Path(string line) => Environment.GetFolderPath(Environment.SpecialFolder.Personal) + line + ".json";
 
-        public static void SerializeWorkers(List<Person> list)
+        public static void SerializePersonList(List<Person> list)
         {
             var form = new DataContractJsonSerializer(typeof(List<Person>));
             using (FileStream fs = new FileStream(Path("workers"), FileMode.Create))
@@ -20,7 +20,7 @@ namespace CSMC
             }
         }
 
-        public static List<Person> DeseializeWorkers()
+        public static List<Person> DeserializePersonList()
         {
             var form = new DataContractJsonSerializer(typeof(List<Person>));
             using (FileStream fs = new FileStream(Path("workers"), FileMode.Open))
@@ -28,6 +28,7 @@ namespace CSMC
                 return (List<Person>)form.ReadObject(fs);
             }
         }
+
     }
 
 }

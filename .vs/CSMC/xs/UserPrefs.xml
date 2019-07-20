@@ -1,20 +1,11 @@
 ﻿<Properties StartupConfiguration="{AB6F9867-F034-4FCC-959C-5B7D0F501914}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="CSMC/MainPage.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CSMC/Models/PersonListView.cs">
     <Files>
-      <File FileName="CSMC/Models/Person.cs" Line="1" Column="1" />
-      <File FileName="CSMC/Workers.cs" />
-      <File FileName="CSMC/SerializationInfo.cs" />
-      <File FileName="CSMC/App.xaml.cs" />
-      <File FileName="CSMC/Models/MyPage.cs" />
-      <File FileName="CSMC/Models/Title.cs" />
-      <File FileName="CSMC/WorkerPage.cs" Line="59" Column="1" />
-      <File FileName="CSMC/WorkerPage.cs" Line="59" Column="1" />
-      <File FileName="CSMC/WorkerPage.cs" Line="59" Column="1" />
-      <File FileName="CSMC/Models/PersonListView.cs" Line="21" Column="1" />
-      <File FileName="CSMC/Models/Info.cs" />
-      <File FileName="CSMC/Vacancies.cs" Line="28" Column="143" />
-      <File FileName="CSMC/Settings.cs" Line="28" Column="84" />
-      <File FileName="CSMC/MainPage.cs" Line="19" Column="53" />
+      <File FileName="CSMC/Workers.cs" Line="44" Column="14" />
+      <File FileName="CSMC/WorkerPage.cs" Line="48" Column="35" />
+      <File FileName="CSMC/Models/MyPage.cs" Line="1" Column="1" />
+      <File FileName="CSMC/Models/Info.cs" Line="1" Column="1" />
+      <File FileName="CSMC/Models/PersonListView.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -24,13 +15,14 @@
               <Node name="Dependencies" expanded="True">
                 <Node name="PackageDependencies" expanded="True" />
               </Node>
-              <Node name="Models" expanded="True" />
-              <Node name="Resourses" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="PersonListView.cs" selected="True" />
+              </Node>
               <Node name="App.xaml" expanded="True" />
-              <Node name="MainPage.cs" selected="True" />
             </Node>
             <Node name="CSMC.Android" expanded="True">
               <Node name="References" expanded="True" />
+              <Node name="Assets" expanded="True" />
               <Node name="Resources" expanded="True">
                 <Node name="drawable" expanded="True" />
                 <Node name="values" expanded="True" />
