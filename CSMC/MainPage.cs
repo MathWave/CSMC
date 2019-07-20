@@ -14,9 +14,9 @@ namespace CSMC
             Children.Add(new Seminars());
             Children.Add(new Workers());
             Children.Add(new Publications());
-            Children.Add(new Vacancies());
+            //Children.Add(new Vacancies());
             Children.Add(new Projects());
-            ToolbarItems.Add(new ToolbarItem("settings", "", () => Navigation.PushAsync(new Settings())) { IconImageSource = "settings.png" });
+            //ToolbarItems.Add(new ToolbarItem("settings", "", () => Navigation.PushAsync(new Settings())) { IconImageSource = "settings.png" });
         }
     }
 }

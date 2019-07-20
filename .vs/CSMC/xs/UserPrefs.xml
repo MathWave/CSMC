@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{AB6F9867-F034-4FCC-959C-5B7D0F501914}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="CSMC/Vacancies.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CSMC/ShowNew.cs">
     <Files>
       <File FileName="CSMC/Workers.cs" Line="39" Column="37" />
       <File FileName="CSMC/WorkerPage.cs" />
@@ -7,16 +7,17 @@
       <File FileName="CSMC/Models/Info.cs" Line="11" Column="52" />
       <File FileName="CSMC/Models/PersonListView.cs" />
       <File FileName="CSMC/News.cs" Line="34" Column="36" />
-      <File FileName="CSMC/Models/New.cs" />
+      <File FileName="CSMC/Models/New.cs" Line="13" Column="29" />
       <File FileName="CSMC/App.xaml.cs" Line="27" Column="1" />
       <File FileName="CSMC/SerializationInfo.cs" Line="61" Column="74" />
-      <File FileName="CSMC/Models/NewsListView.cs" Line="17" Column="17" />
+      <File FileName="CSMC/Models/NewsListView.cs" Line="16" Column="40" />
       <File FileName="CSMC/MainPage.cs" />
       <File FileName="CSMC.Android/MainActivity.cs" />
       <File FileName="CSMC/Seminars.cs" Line="44" Column="58" />
       <File FileName="CSMC/Models/Seminar.cs" Line="10" Column="21" />
       <File FileName="CSMC/Models/SeminarsListView.cs" Line="14" Column="98" />
-      <File FileName="CSMC/Vacancies.cs" Line="28" Column="89" />
+      <File FileName="CSMC/Vacancies.cs" Line="28" Column="95" />
+      <File FileName="CSMC/ShowNew.cs" Line="9" Column="24" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -28,7 +29,7 @@
               </Node>
               <Node name="Models" expanded="True" />
               <Node name="App.xaml" expanded="True" />
-              <Node name="Vacancies.cs" selected="True" />
+              <Node name="ShowNew.cs" selected="True" />
             </Node>
             <Node name="CSMC.Android" expanded="True">
               <Node name="References" expanded="True" />
@@ -49,5 +50,5 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.CSMC.Android PreferredExecutionTarget="Android.CB512BF3UX" />
+  <MonoDevelop.Ide.ItemProperties.CSMC.Android PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
 </Properties>
