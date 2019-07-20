@@ -1,11 +1,7 @@
 ﻿using System;
 using CSMC.Models;
-using System.IO;
-using System.Net;
 using Xamarin.Forms;
-using System.Net.NetworkInformation;
-using System.Threading;
-using System.Threading.Tasks;
+using System.Net;
 using System.Collections.Generic;
 
 namespace CSMC

@@ -11,12 +11,16 @@ namespace CSMC
     {
 
         public static List<Person> PersonDB;
+        public static List<New> NewsDB;
 
         public App()
         {
             if (!File.Exists(SerializationInfo.Path("workers")))
                 SerializationInfo.SerializePersonList(new List<Person>());
+            if (!File.Exists(SerializationInfo.Path("news")))
+                SerializationInfo.SerializeNews(new List<New>());
             PersonDB = SerializationInfo.DeserializePersonList();
+            NewsDB = SerializationInfo.DeserializeNews();
             InitializeComponent();
             MainPage = new NavigationPage(new MainPage());
             MainPage.SetValue(NavigationPage.BarBackgroundColorProperty, Color.Black);

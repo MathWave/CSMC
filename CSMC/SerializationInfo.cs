@@ -29,6 +29,24 @@ namespace CSMC
             }
         }
 
+        public static void SerializeNews(List<New> list)
+        {
+            var form = new DataContractJsonSerializer(typeof(List<New>));
+            using (FileStream fs = new FileStream(Path("news"), FileMode.Create))
+            {
+                form.WriteObject(fs, list);
+            }
+        }
+
+        public static List<New> DeserializeNews()
+        {
+            var form = new DataContractJsonSerializer(typeof(List<New>));
+            using (FileStream fs = new FileStream(Path("news"), FileMode.Open))
+            {
+                return (List<New>)form.ReadObject(fs);
+            }
+        }
+
     }
 
 }
