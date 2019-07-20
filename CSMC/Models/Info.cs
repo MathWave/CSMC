@@ -8,7 +8,7 @@ namespace CSMC.Models
         {
             Text = line;
             FontSize = 15;
-            HorizontalOptions = LayoutOptions.Center;
+            HorizontalOptions = LayoutOptions.Start;
             TextColor = Color.Black;
             HorizontalTextAlignment = TextAlignment.Center;
             Margin = 20;

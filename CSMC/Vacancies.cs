@@ -25,7 +25,7 @@ namespace CSMC
                     b
                 }
             };
-            b.Clicked += (object s, EventArgs e) => { Device.OpenUri(new Uri("mailto:ryavorsky@hse.ru?subject=Стажировка%20в%20НУЛ%20МУСС")); };
+            b.Clicked += (object s, EventArgs e) => { Device.OpenUri(new Uri("mailto:ashapoval@hse.ru?subject=Стажировка%20в%20НУЛ%20МУСС")); };
         }
 
     }
